@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Nearby Places</title>
+    <link rel="icon" href="/media/info1.jpg" widht="25px">
+
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="box">
+        <header>
+            <div id="login">
+                <h2>Login<br> Nearby Places</h2>
+            </div>
+        </header>
+        <hr>
+        <div id="form">
+            <form>
+                <input type="text" placeholder="Enter PRN" id="username">
+                <input type="password" placeholder="Enter Password" id="password">
+                <input onclick="func()" type="button" value="Login">
+            </form>
+
+            <div id="successMessage">
+                <div class="popup">
+                    <h2>Login Successful!</h2>
+                    <p>Welcome back</p>
+                    <button onclick="closePopup()">Close</button>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <p>Don't have Account ?<a href="signup.html" target="blank">create</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
