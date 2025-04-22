@@ -6,6 +6,7 @@ function func() {
         document.getElementById("successMessage").style.display = "flex";
     } else {
         alert("Invalid Username & password. Please try again.");
+        console.error(`invalid username ${username} and password ${password}`);
     }
 
     // Clear input fields correctly
